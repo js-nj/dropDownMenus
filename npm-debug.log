@@ -1,0 +1,134 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.2
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: 'e:\\wisedu\\vue组件\\dropDownMenus',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory D:\Program Files\nodejs\node_cache\DropDownMenus\0.0.1\package.tgz not in flight; packing
+9 verbose correctMkdir D:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+10 info lifecycle DropDownMenus@0.0.1~prepublish: DropDownMenus@0.0.1
+11 silly lifecycle DropDownMenus@0.0.1~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ 'D:\\Program Files\\nodejs\\node_cache\\DropDownMenus\\0.0.1\\package.tgz',
+12 verbose tar pack   'e:\\wisedu\\vue组件\\dropDownMenus' ]
+13 verbose tarball D:\Program Files\nodejs\node_cache\DropDownMenus\0.0.1\package.tgz
+14 verbose folder e:\wisedu\vue组件\dropDownMenus
+15 verbose addLocalTarball adding from inside cache D:\Program Files\nodejs\node_cache\DropDownMenus\0.0.1\package.tgz
+16 verbose correctMkdir D:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+17 silly cache afterAdd DropDownMenus@0.0.1
+18 verbose afterAdd D:\Program Files\nodejs\node_cache\DropDownMenus\0.0.1\package\package.json not in flight; writing
+19 verbose correctMkdir D:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+20 verbose afterAdd D:\Program Files\nodejs\node_cache\DropDownMenus\0.0.1\package\package.json written
+21 silly publish { name: 'DropDownMenus',
+21 silly publish   version: '0.0.1',
+21 silly publish   description: 'dropDownMenus',
+21 silly publish   main: './lib/index.js',
+21 silly publish   scripts:
+21 silly publish    { dev: 'cross-env NODE_ENV=development webpack-dev-server --open --inline --hot',
+21 silly publish      build: 'cross-env NODE_ENV=production webpack --config ./build/webpack.config.js --progress --hide-modules' },
+21 silly publish   files: [ 'lib', 'src' ],
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/js-nj/dropDownMenus.git' },
+21 silly publish   author: { name: 'xujiabin' },
+21 silly publish   license: 'ISC',
+21 silly publish   dependencies:
+21 silly publish    { 'babel-preset-es2015': '^6.24.1',
+21 silly publish      'babel-runtime': '^6.23.0',
+21 silly publish      vue: '^2.1.0',
+21 silly publish      'vue-router': '^2.1.1' },
+21 silly publish   devDependencies:
+21 silly publish    { 'babel-core': '^6.0.0',
+21 silly publish      'babel-loader': '^6.0.0',
+21 silly publish      'babel-preset-es2015': '^6.0.0',
+21 silly publish      'babel-preset-stage-0': '^6.24.1',
+21 silly publish      'cross-env': '^3.0.0',
+21 silly publish      'css-loader': '^0.25.0',
+21 silly publish      'extract-text-webpack-plugin': '2.0.0-beta.1',
+21 silly publish      'file-loader': '^0.9.0',
+21 silly publish      moment: '^2.15.2',
+21 silly publish      'postcss-cssnext': '^2.9.0',
+21 silly publish      'postcss-loader': '^1.2.2',
+21 silly publish      'postcss-pxtorem': '^3.3.1',
+21 silly publish      'style-loader': '^0.13.1',
+21 silly publish      'url-loader': '^0.5.7',
+21 silly publish      'vue-loader': '^10.0.0',
+21 silly publish      'vue-style-loader': '^2.0.0',
+21 silly publish      'vue-template-compiler': '^2.1.0',
+21 silly publish      webpack: '^2.1.0-beta.25',
+21 silly publish      'webpack-dev-server': '^2.1.0-beta.9' },
+21 silly publish   bugs: { url: 'https://github.com/js-nj/dropDownMenus/issues' },
+21 silly publish   readme: 'ERROR: No README data found!',
+21 silly publish   homepage: 'https://github.com/js-nj/dropDownMenus#readme',
+21 silly publish   _id: 'DropDownMenus@0.0.1',
+21 silly publish   _shasum: '096cac70fb85e442ed42d59a39ee4b9dc376f6f2',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name DropDownMenus
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'DropDownMenus',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'DropDownMenus',
+26 silly mapToRegistry   name: 'DropDownMenus',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/DropDownMenus
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading D:\Program Files\nodejs\node_cache\DropDownMenus\0.0.1\package.tgz
+30 verbose request uri https://registry.npmjs.org/DropDownMenus
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 13:44:54
+33 verbose request using bearer token for auth
+34 verbose request id 7262426b7ad6b2d9
+35 http request PUT https://registry.npmjs.org/DropDownMenus
+36 http 400 https://registry.npmjs.org/DropDownMenus
+37 verbose headers { 'content-type': 'application/json',
+37 verbose headers   'cache-control': 'max-age=300',
+37 verbose headers   'content-length': '57',
+37 verbose headers   'accept-ranges': 'bytes',
+37 verbose headers   date: 'Wed, 15 Nov 2017 05:45:07 GMT',
+37 verbose headers   via: '1.1 varnish',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'x-served-by': 'cache-nrt6142-NRT',
+37 verbose headers   'x-cache': 'MISS',
+37 verbose headers   'x-cache-hits': '0',
+37 verbose headers   'x-timer': 'S1510724708.708945,VS0,VE224',
+37 verbose headers   vary: 'Accept-Encoding, Accept' }
+38 verbose request invalidating D:\Program Files\nodejs\node_cache\registry.npmjs.org\DropDownMenus on PUT
+39 error publish Failed PUT 400
+40 verbose stack Error: "DropDownMenus" is invalid for new packages : DropDownMenus
+40 verbose stack     at makeError (D:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+40 verbose stack     at CachingRegistryClient.<anonymous> (D:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+40 verbose stack     at Request._callback (D:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+40 verbose stack     at Request.self.callback (D:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+40 verbose stack     at emitTwo (events.js:106:13)
+40 verbose stack     at Request.emit (events.js:191:7)
+40 verbose stack     at Request.<anonymous> (D:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+40 verbose stack     at emitOne (events.js:96:13)
+40 verbose stack     at Request.emit (events.js:188:7)
+40 verbose stack     at IncomingMessage.<anonymous> (D:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12)
+41 verbose statusCode 400
+42 verbose pkgid DropDownMenus
+43 verbose cwd e:\wisedu\vue组件\dropDownMenus
+44 error Windows_NT 10.0.15063
+45 error argv "D:\\Program Files\\nodejs\\node.exe" "D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+46 error node v6.11.2
+47 error npm  v3.10.10
+48 error code E400
+49 error "DropDownMenus" is invalid for new packages : DropDownMenus
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]
